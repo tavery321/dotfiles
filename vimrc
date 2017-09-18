@@ -10,7 +10,7 @@
 runtime! debian.vim
 
 syntax on
-colorscheme default
+colorscheme echoes
 
 set autoindent
 set tabstop=4
