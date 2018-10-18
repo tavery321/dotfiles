@@ -8,3 +8,4 @@ set noexpandtab
 set cursorline
 set showmatch
 set ignorecase
+set title
