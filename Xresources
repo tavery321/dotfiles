@@ -2,5 +2,5 @@ XTerm*background: black
 XTerm*foreground: white
 XTerm*faceName: mono
 XTerm*faceSize: 10 
-
+XTerm*visualBell:false
 XTerm*selectToClipboard: true
