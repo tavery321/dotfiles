@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -173,10 +173,11 @@ smart_borders on
 
 exec --no-startup-id nm-applet
 exec --no-startup-id redshift-gtk
-exec --no-startup-id feh --bg-fill ~/Pictures/pretty.png
+exec --no-startup-id feh --bg-fill ~/Pictures/mountain.png
+exec --no-startup-id dunst -config
 new_window pixel 2
 
-set $Locker i3lock -c 000000 && sleep 1
+set $Locker i3lock -i ~/Pictures/mountain_lock.png && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
